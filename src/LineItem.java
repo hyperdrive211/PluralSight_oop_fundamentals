@@ -11,6 +11,10 @@ public class LineItem {
         this.quantity = quantity;
     }
 
+    public LineItem(LineItem li){
+        this(li.product, li.quantity);
+    }
+
     public Product getProduct() {
         return product;
     }

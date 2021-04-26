@@ -5,8 +5,6 @@
 enum ProductType {
     DIGITAL(0),
     PHYSICAL(Catalogue.SHIPPING_COST);
-
-
     private final int shippingRate;
 
     ProductType(int shippingRate){
